@@ -5,6 +5,7 @@ on: push
 jobs:
   first_job:
     runs-on: ubuntu-lastest
+    steps:
     - name: welcome to my first git action
       run: echo "welcome to my first github project"
     - name: list folder
